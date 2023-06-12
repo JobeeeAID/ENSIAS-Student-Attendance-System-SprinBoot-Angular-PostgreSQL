@@ -1,29 +1,20 @@
-Angular, Spring-Boot & Docker
+Angular, Spring-Boot, PostgreSQL ,AWS RDS & Docker
 
-Sample project to demonstrate usage of Docker and docker-compose for development and testing of a Java Spring Boot and Angular project.
-
-Includes example of how to use docker as a build container for Java and Angular apps.
+ a web application for getting track of attendance inside the school automatically using an RFID system to collect the IDs of participating students in the courses, we used SpringBoot,Angular,PostgreSQL,AWS RDS for deploying the database and also docker to containerize the app.
 
 [Rest API](https://github.com/YassineOuhadi/attendance-rest-api/tree/master)
 
 [App Ui](https://github.com/JobeeeAID/Student-s-attendance-management-system-IoT)
 
-## Get started
 
-To run this project in `http://localhost:4200/`, follow these steps:
 
-1. Clone the repository to your local machine:
+To run this project in `http://localhost:4200/`, just clone the repository to your local machine and build the docker image using :
 
-   `https://github.com/YassineOuhadi/attendance-management-system-spring-boot-angular-postgres.git`
+`docker-compose build`
    
-2. Build Docker Image:
+then run the docker container using :
 
-   `docker-compose build`
-   
-2. Run Docker Image:
+`docker-compose up`
 
-   `docker-compose up`
-
-## Overview
 
 ## License
