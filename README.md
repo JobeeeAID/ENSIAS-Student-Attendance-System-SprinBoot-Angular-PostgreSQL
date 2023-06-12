@@ -1,4 +1,4 @@
-Angular, Spring-Boot, PostgreSQL ,AWS RDS & Docker
+## Angular, Spring-Boot, PostgreSQL ,AWS RDS & Docker
 
  a web application for getting track of attendance inside the school automatically using an RFID system to collect the IDs of participating students in the courses, we used SpringBoot,Angular,PostgreSQL,AWS RDS for deploying the database and also docker to containerize the app.
 
