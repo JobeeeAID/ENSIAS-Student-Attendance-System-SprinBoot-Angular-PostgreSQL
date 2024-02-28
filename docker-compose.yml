@@ -9,8 +9,8 @@ services:
     environment:
       - DB_SERVER=attendance-db.c61cjdfm6rpa.us-east-1.rds.amazonaws.com
       - POSTGRES_DB=Attendance_DB
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgress
+      - POSTGRES_PASSWORD=postgress
     ports:
       - 9090:9090
 
